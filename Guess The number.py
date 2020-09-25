@@ -55,11 +55,10 @@ if __name__ == '__main__':
             a = a + b
             b = a - b
             a = a - b
-        c_ans = random.randint(a, b)
         print("Player1 :")
-        p1 = calculate(c_ans, int(input(f"Please guess the number between {a} and {b} ")))
+        p1 = calculate(random.randint(a, b), int(input(f"Please guess the number between {a} and {b} ")))
         print("Player2 :")
-        p2 = calculate(c_ans, int(input(f"Please guess the number between {a} and {b} ")))
+        p2 = calculate(random.randint(a, b), int(input(f"Please guess the number between {a} and {b} ")))
 
         if p1 > p2:
             print("Player 2 wins!")
