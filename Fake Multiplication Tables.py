@@ -1,4 +1,7 @@
 """
+Create By - Avijit Samanta
+Date - 26/09/2020
+
 Problem Statement:- Avijit das is a fraud by nature. Avijit Samanta wrote a python function to print a multiplication
 table of a given number and put one of the values (randomly generated) as wrong.
 
