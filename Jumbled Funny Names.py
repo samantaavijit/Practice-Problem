@@ -38,7 +38,7 @@ def getFirstLastName(nameList):
 
 def changeName(nameList):
     for item in nameList:
-        index = random.randint(0, len(nameList)-1)
+        index = random.randint(0, len(nameList) - 1)
         nn = nameList[index]
         item[1] = nn[1]
         print(item)
@@ -47,3 +47,4 @@ def changeName(nameList):
 if __name__ == '__main__':
     myName = ["Avijit Samanta", "Antik Mondal", "Ramij Ahamed Mistry"]
     changeName(getFirstLastName(myName))
+
