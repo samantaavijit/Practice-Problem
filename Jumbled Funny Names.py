@@ -47,4 +47,3 @@ def changeName(nameList):
 if __name__ == '__main__':
     myName = ["Avijit Samanta", "Antik Mondal", "Ramij Ahamed Mistry"]
     changeName(getFirstLastName(myName))
-
